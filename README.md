@@ -8,8 +8,6 @@ An analysis on the video games industry.
 - [About the project](#about-the-project)
 - [Tools used](#tools-used)
 - [Data](#data)
-- [Project artifacts](#project-artifacts)
-- [Project deliverables](#project-deliverables)
 
 ## About the project
 
