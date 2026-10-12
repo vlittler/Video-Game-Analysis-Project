@@ -33,7 +33,7 @@ The video games industry was chosen as the focus for this project as this is an 
 
 ## Data
 
-
+The data used within this project was sourced by a data scraper ([vgchartzScraper](https://github.com/GregorUT/vgchartzScrape)) originally found linked to the Video Game Sales dataset available on [Kaggle](https://www.kaggle.com/datasets/gregorut/videogamesales).
 
 
 ## Project artifacts
