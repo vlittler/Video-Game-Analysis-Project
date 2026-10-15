@@ -9,6 +9,7 @@ An analysis on the video games industry.
 - [Tools used](#tools-used)
 - [Data](#data)
 - [Project artifacts](#project-artifacts)
+- [Project deliverables](#project-deliverables)
 
 ## About the project
 
@@ -78,3 +79,17 @@ Here, we can see that the **Adventure** genre has the highest average number of 
 The last data query above was done to answer _'Overall, which game genre performed the best based on unit sales?'_. The written query creates a table which showcases each genre group alongside the total sum of global units sold. This sum is then rounded to 2 decimal places.
 
 With this table, the highest amount of global units sold was **19.66 million**, showing that **Adventure** games is the best selling genre across the entire time period. The 2nd best-selling genre is **Action** games, which has a **2.05** difference between the top genre group.
+
+## Project deliverables
+
+### Growing Video Game Sales Presentation
+
+The presentation focuses on the narrative that video game developers need to focus on upcoming technology, new console releases and game development for adventure games. The full [Growing Video Games Sales Presentation](https://github.com/vlittler/video-game-analysis/raw/refs/heads/main/Growing%20Video%20Game%20Sales.pptx) has also been uploaded for download.
+
+![Presentation Title: Growing Video Game Sales](analytics-screenshots/Growing_Video_Games.png)
+
+For this, I utilised Tableau to create a [dashboard](https://public.tableau.com/app/profile/vanessa.littler/viz/videogamesanalysis_17915487186250/VideoGameAnalysis#1) and used this to answer the original questions outlined for the project.
+
+Showcased are video game sales across the years as well as potential influences to the market such as console releases to help explain where global sales have peaked or dropped. Issues with the data has also been covered with a view on the data lag and discussing potential impacts to the industry due to the COVID-19 pandemic.
+
+Included in the presentation is also a breakdown on top performing genres and a comparison of their average global sales, highlighting Adventure games as the best focus for new game development due to overall performance and popularity.
