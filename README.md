@@ -8,6 +8,7 @@ An analysis on the video games industry.
 - [About the project](#about-the-project)
 - [Tools used](#tools-used)
 - [Data](#data)
+- [Project artifacts](#project-artifacts)
 
 ## About the project
 
@@ -51,3 +52,29 @@ The original dataset available on Kaggle was limited to older records (prior to 
 The issue I'd found was that whilst the data scraper was capable of updating the dataset, the original website source that the data scraper is reliant on wasn't complete or up to date itself. This meant that after pulling the data, the majority of the games information which were listed with a release between 2021-2026 were incomplete and at times, creating incorrect information. 
 
 To counter this, I cleaned the dataset using SQL and BigQuery to remove any NULL values as well as the incomplete and redundant information. This meant that with my data, I could only base my research and evaluations on games released prior to 2020.
+
+## Project artifacts
+
+### How many games exist per decade?
+
+![BigQuery code and results showcasing a table for total games and total global units sold by year](analytics-screenshots/BigQuery_Games_per_Decade.png)
+
+The above data query was created to help answer _'Which year performed the best based on unit sales?'_. For this, the table was done to pull each year group, a count of total games within each year group alongside the total global units sold per year group. I ensured NULL values were not included and ordered the results by year ascending.
+
+From this, I found that the best performing year was 2009 with a total of **12.34 million** global units sold. It also helped to highlight immediate issues with the data despite removing NULL values, showing more recent years (2019 and 2020) with less than **1 million** global units sold.
+
+### On average, how many games are available per genre?
+
+![BigQuery code and results showcasing a table for average number of games per genre](analytics-screenshots/BigQuery_Average_Games.png)
+
+This data query was done to help answer _'What was the split between the varying game genres available?'_. From the data, the table created pulls each genre group (i.e. Shooter, Racing, Puzzle) and calculates the average number of games within each genre based on total games overall.
+
+Here, we can see that the **Adventure** genre has the highest average number of games with a total average of **1030** whereas the lowest was **Board Games** with only an average of **2**.
+
+### What genre sold the most games?
+
+![BigQuery code and results showcasing a table for total global units sold per genre](analytics-screenshots/BigQuery_Best_Selling_Genre.png)
+
+The last data query above was done to answer _'Overall, which game genre performed the best based on unit sales?'_. The written query creates a table which showcases each genre group alongside the total sum of global units sold. This sum is then rounded to 2 decimal places.
+
+With this table, the highest amount of global units sold was **19.66 million**, showing that **Adventure** games is the best selling genre across the entire time period. The 2nd best-selling genre is **Action** games, which has a **2.05** difference between the top genre group.
